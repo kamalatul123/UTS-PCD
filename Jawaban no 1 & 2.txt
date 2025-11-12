@@ -1,0 +1,9 @@
+No 1 & 2
+Pada citra asli, nilai keabuan tersebar secara alami sesuai kondisi pencahayaan pada gambar. Bagian yang terang seperti langit dan tanah memiliki nilai keabuan tinggi, sedangkan bagian gelap seperti batang dan bayangan pohon memiliki nilai keabuan rendah. Persebaran intensitasnya masih seimbang antara gelap dan terang. 
+Pada citra negatif, nilai keabuan dibalik terhadap 255 sehingga daerah terang menjadi gelap dan sebaliknya. Tampilan gambar terlihat seperti hasil negatif foto, dan histogramnya menjadi cerminan terbalik dari histogram citra asli. 
+Sedangkan pada citra logaritmik, nilai keabuan rendah akan diperkuat sementara nilai tinggi dikompresi. Akibatnya, detail di area gelap lebih terlihat jelas dan bagian terang tidak terlalu menonjol. Histogramnya cenderung menumpuk di sisi kanan karena hasil logaritmik memperkecil rentang intensitas.
+
+	Transformasi logaritmik lebih bermanfaat digunakan ketika gambar memiliki banyak bagian gelap yang kurang terlihat, seperti pada foto pemandangan yang memiliki bayangan atau pada citra medis dan astronomi. Transformasi ini membantu memperjelas detail di area gelap tanpa membuat bagian terang terlalu silau. Sedangkan transformasi negatif lebih berguna jika gambar terlalu terang atau ketika ingin menonjolkan bentuk dan tepi objek dengan membalikkan kontrasnya.
+
+
+
